@@ -232,7 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📚 Related Articles
 
-- [Medium Article: From 7.6GB CSV to 0.42GB Parquet](https://medium.com/@username/article-link)
+- [Medium Article: From 7.6GB CSV to 0.42GB Parquet]([https://medium.com/@username/article-link](https://yldrykuru.medium.com/from-7-6gb-csv-to-0-42gb-parquet-production-ready-big-data-solution-d09dc1f1bbd8))
 
 ## 🔗 Useful Links
 
