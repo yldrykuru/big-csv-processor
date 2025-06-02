@@ -101,7 +101,6 @@ python search_parquet.py info  # Show file structure
 ```txt
 pandas>=2.0.0
 pyarrow>=10.0.0
-numpy>=1.24.0
 ```
 
 ## 🎯 Usage Examples
