@@ -22,10 +22,10 @@ df = pd.read_csv("huge_file.csv")  # ❌ MemoryError!
 ## ✨ Key Features
 
 - 🔥 **94.5% size reduction** (7.6GB → 0.42GB in real tests)
-- ⚡ **10x faster queries** compared to CSV
+- ⚡ **Fast columnar queries** with DuckDB or pandas
 - 💾 **Memory-efficient** chunked processing
 - 🔍 **Built-in search system** for instant data exploration
-- 🛡️ **Production-ready** with error handling
+- 🧹 Streams each chunk into a single Parquet file with `ParquetWriter`
 - 📦 **ZSTD compression** for maximum efficiency
 
 ## 🚀 Quick Start
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ```bash
 # Convert CSV to Parquet
-python main.py
+python main.py input.csv output.parquet
 
 # Search the converted data
 python search_parquet.py
@@ -117,7 +117,7 @@ parquet_file = "output.parquet"
 chunk_size = 50000
 
 # Run the conversion
-python main.py
+python main.py input.csv output.parquet
 ```
 
 ### Search Your Data
